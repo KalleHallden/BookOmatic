@@ -1,7 +1,9 @@
-Description:
+### Description:
 - This is a project that intends to automate the process of booking meetings.
 
-Use case:
+---
+
+### Use case:
 - User1 gets an email from User2 wanting to book a meeting
 - User1 sends back a link to a site 
 - User2 opens the site and sees a UI with available time slots
@@ -9,7 +11,9 @@ Use case:
 - User1 gets notified about the requested booking
 - User1 can approve or disapprove the booking
 
-Requirements:
+---
+
+### Requirements:
 - Should be able to add events in google calendar
 - Should be able to send email notifications
 - Should be able to show available spots
@@ -23,6 +27,8 @@ Requirements:
     - if it's a video conference an option for adding a link to the site of the meeting is required
 - Main user should be able to approve or disapprove booking 
 
-Edge cases:
+---
+
+### Edge cases:
 - User1 is in the process of booking an appointment and User2 books it before User1 finishes. So once User1 is done it is no longer available.
     - Solution: When a user presses a time slot it becomes unavailable straight away. And if they cancel or get disapproved it will become available again.
