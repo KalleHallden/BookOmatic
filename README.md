@@ -7,6 +7,13 @@
 ## What problem does BookOmatic solve ?
 - When a person1 wants to book a meeting with person2 he will send an email requesting for the date and time of the meeting. Person1 is not available at the requested time so he gives a date and time to person2 at which he is free. This goes on till they both find a suitable time slot at which they both are free. This is a long and cumbersome process so BookOmatic solves this by showing person1 the date and time slots person2 is free so he can book his meeting immediately.
 
+---
+
+### Contributors
+[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/0)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/0)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/1)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/1)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/2)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/2)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/3)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/3)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/4)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/4)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/5)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/5)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/6)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/6)[![](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/images/7)](https://sourcerer.io/fame/BrianRuizy/BrianRuizy/BookOmatic/links/7)
+
+---
+
 ### Tools:
 - Django and Python for frontend
 - Firebase for backend
