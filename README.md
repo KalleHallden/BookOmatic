@@ -3,6 +3,12 @@
 
 ---
 
+### Tools:
+- Django and Python for frontend
+- Firebase for backend
+
+---
+
 ### Use case:
 - User1 gets an email from User2 wanting to book a meeting
 - User1 sends back a link to a site 
