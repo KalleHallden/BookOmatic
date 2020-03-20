@@ -44,6 +44,8 @@
     - Solution: When a user presses a time slot it becomes unavailable straight away. And if they cancel or get disapproved it will become available again.
 - User2 can hog available slots by opening the booking page indefinitely, making the application counter-productive. There has to be a time limit set for a single booking to take place, example: 15 mins available to book a slot after User clicks a slot to book
 
+---
+
 ### Developer Setup:
 - Fork this repository, and cd into it.
 ```bash
