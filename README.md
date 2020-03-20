@@ -43,3 +43,19 @@
 - User1 is in the process of booking an appointment and User2 books it before User1 finishes. So once User1 is done it is no longer available.
     - Solution: When a user presses a time slot it becomes unavailable straight away. And if they cancel or get disapproved it will become available again.
 - User2 can hog available slots by opening the booking page indefinitely, making the application counter-productive. There has to be a time limit set for a single booking to take place, example: 15 mins available to book a slot after User clicks a slot to book
+
+### Developer Setup
+- Fork this repository, and cd into it.
+```bash
+git clone https://github.com/KalleHallden/BookOmatic.git
+cd BookOmatic/
+```
+- Create and activate your virtual environment.
+```bash
+virtualenv --no-site-packages env
+source env/bin/activate
+```
+- Install requisite python packages and modules.
+```bash
+pip install -r requirements.txt
+```
