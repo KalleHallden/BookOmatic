@@ -1,7 +1,11 @@
-### Description:
-- This is a project that intends to automate the process of booking meetings.
+#                                                          BookOmatics
+
+## What is BookOmatics?
+- This is a project that intends to automate the process of booking meetings according to available time slots.
 
 ---
+## What problem does BookOmatics solve ?
+- When a person1 wants to book a meeting with person2 he will send an email requesting for the date and time of the meeting. Person1 is not available at the requested time so he gives a date and time to person2 at which he is free. This goes on till they both find a suitable time slot at which they both are free. This is a long and cumbersome process so BookOmatics solves this by showing person1 the date and time slots person2 is free so he can book his meeting immediately.
 
 ### Use case:
 - User1 gets an email from User2 wanting to book a meeting
