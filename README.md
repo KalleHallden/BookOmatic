@@ -1,5 +1,5 @@
 ### Description:
-- This is a project that intends to automate the process of booking meetings.
+This is a project that intends to automate the process of booking meetings.
 
 ---
 
@@ -32,3 +32,10 @@
 ### Edge cases:
 - User1 is in the process of booking an appointment and User2 books it before User1 finishes. So once User1 is done it is no longer available.
     - Solution: When a user presses a time slot it becomes unavailable straight away. And if they cancel or get disapproved it will become available again.
+
+
+---
+
+## Want to help out?
+I encourage everyone to help out with this project, no matter what your skill base is. If you know any form of coding, look at the issues (in special those labelled as "good first issue", for the newcomers), and make Pull Requests! Make issues! Make reviews! Make!
+Any help is appreciated and will be taken kindly!
