@@ -3,6 +3,12 @@ This is a project that intends to automate the process of booking meetings.
 
 ---
 
+### Tools:
+- Django and Python for frontend
+- Firebase for backend
+
+---
+
 ### Use case:
 - User1 gets an email from User2 wanting to book a meeting
 - User1 sends back a link to a site 
@@ -35,6 +41,7 @@ This is a project that intends to automate the process of booking meetings.
 
 
 ---
+
 
 ## Want to help out?
 I encourage everyone to help out with this project, no matter what your skill base is. If you know any form of coding, look at the issues (in special those labelled as "good first issue", for the newcomers), and make Pull Requests! Make issues! Make reviews! Make!
