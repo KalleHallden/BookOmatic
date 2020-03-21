@@ -1,3 +1,5 @@
+# BookOmatic - Contributing
+
 # Description:
 The goal of this file is to help the larger community settle on some best practices when it comes to contributing. This is an open source project, so community contributions are the only way this will truly develop. Any help you give is greatly appreciated, big or small.
 
@@ -16,4 +18,3 @@ This is essentially how we keep track of what issues are presently at play and d
 - Add screen shots if you are including visual changes.
 - @mention devs that you specifically want to see the PR and mention why. Such as having experience with the issue.
 - Try to make all code as readable as possible and include comments where you can.
-
