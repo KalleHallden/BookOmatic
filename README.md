@@ -1,7 +1,16 @@
+
 ### Description:
 This is a project that intends to automate the process of booking meetings.
+=======
+#                                                      BookOmatic
+
+## What is BookOmatic?
+- This is a project that intends to automate the process of booking meetings according to available time slots.
+
 
 ---
+## What problem does BookOmatic solve ?
+- When a person1 wants to book a meeting with person2 he will send an email requesting for the date and time of the meeting. Person1 is not available at the requested time so he gives a date and time to person2 at which he is free. This goes on till they both find a suitable time slot at which they both are free. This is a long and cumbersome process so BookOmatic solves this by showing person1 the date and time slots person2 is free so he can book his meeting immediately.
 
 ### Tools:
 - Django and Python for frontend
