@@ -1,5 +1,15 @@
-### Description:
-- This is a project that intends to automate the process of booking meetings.
+#                                                      BookOmatic
+
+## What is BookOmatic?
+- This is a project that intends to automate the process of booking meetings according to available time slots.
+
+---
+## What problem does BookOmatic solve ?
+- When a person1 wants to book a meeting with person2 he will send an email requesting for the date and time of the meeting. Person1 is not available at the requested time so he gives a date and time to person2 at which he is free. This goes on till they both find a suitable time slot at which they both are free. This is a long and cumbersome process so BookOmatic solves this by showing person1 the date and time slots person2 is free so he can book his meeting immediately.
+
+### Tools:
+- Django and Python for frontend
+- Firebase for backend
 
 ---
 
@@ -32,3 +42,4 @@
 ### Edge cases:
 - User1 is in the process of booking an appointment and User2 books it before User1 finishes. So once User1 is done it is no longer available.
     - Solution: When a user presses a time slot it becomes unavailable straight away. And if they cancel or get disapproved it will become available again.
+- User2 can hog available slots by opening the booking page indefinitely, making the application counter-productive. There has to be a time limit set for a single booking to take place, example: 15 mins available to book a slot after User clicks a slot to book
