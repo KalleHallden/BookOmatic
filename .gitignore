@@ -24,3 +24,6 @@ package-lock.json
 staticfiles/*
 !staticfiles/.gitkeep 
 .vscode/settings.json
+
+# Environment files
+.env
