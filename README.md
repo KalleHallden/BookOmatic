@@ -68,7 +68,7 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-- Verify working Django project by running the development server.
+- Verify if the Django project is working by running the development server.
 ```bash
 python manage.py runserver
 ```
