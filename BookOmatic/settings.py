@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'calendarapp',
     'userprefs',
     'eventbooking',
+    'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE = [
