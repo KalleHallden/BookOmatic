@@ -15,12 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from django.urls import path
-from django.contrib.auth import login, logout
-
 
 urlpatterns = [
-    url(r'^accounts/', include('allauth.urls')),
     url(r'', include('calendarapp.urls')),
     url(r'^admin/', admin.site.urls),
 
