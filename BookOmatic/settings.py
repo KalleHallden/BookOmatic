@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
-
+    'allauth.socialaccount.providers.google'
 ]
 
 SITE_ID = 1
@@ -66,7 +66,7 @@ ROOT_URLCONF = 'BookOmatic.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -74,8 +74,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'social_django.context_processors.backends',
-                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -85,11 +83,6 @@ AUTHENTICATION_BACKENDS = (
     'allauth.account.auth_backends.AuthenticationBackend',
     'django.contrib.auth.backends.ModelBackend',
 )
-
-
-#facebook
-SOCIAL_AUTH_FACEBOOK_KEY = '909586342794695!'
-SOCIAL_AUTH_FACEBOOK_SECRET ='b261456ef6e90168fc91c71644a80064!'
 
 
 WSGI_APPLICATION = 'BookOmatic.wsgi.application'
@@ -144,5 +137,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = "/"
+LOGIN_REDIRECT_URL = "/home/"
 #if you succeed in login, you'll be redirected to the main page.
