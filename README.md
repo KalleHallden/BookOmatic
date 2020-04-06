@@ -60,10 +60,16 @@ git clone https://github.com/KalleHallden/BookOmatic.git
 cd BookOmatic/
 ```
 - Create and activate your virtual environment.
-```bash
-virtualenv --no-site-packages env
-source env/bin/activate
-```
+    - MacOS/Linux:
+    ```bash
+    virtualenv --no-site-packages env
+    source env/bin/activate
+    ```
+    - Windows:
+    ```
+    virtualenv env
+    .\env\Scripts\activate
+    ```
 - Install requisite python packages and modules.
 ```bash
 pip install -r requirements.txt
