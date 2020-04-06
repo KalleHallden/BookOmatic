@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
+
 urlpatterns = [
     url(r'^accounts/', include('allauth.urls')),
     url(r'', include('calendarapp.urls')),
@@ -23,3 +24,7 @@ urlpatterns = [
 
 ]
 
+#Add Django site authentication urls (for login, logout, password management)
+urlpatterns += [
+    path('accounts/', include('django.contrib.auth.urls')),
+]
