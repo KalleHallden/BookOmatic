@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Spartan:wght@300;400&display=swap');
+
+$colors: (
+  text: #ffffff,
+  text-grey: #7688a1,
+  text-dark: #061b46,
+  background: #012264,
+  primary: #061b46,
+  primary-dark: #061738,
+  secondary: #21fdef
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: color(background);
+}
+
+.header {
+  height: 4em;
+  position: relative;
+  .logo {
+    height: 2em;
+    margin: 0;
+    position: absolute;
+    left: 9.55em;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: color(secondary);
+  }
+
+  .account {
+    height: 2.3em;
+    margin: 0;
+    position: absolute;
+    right: 1.9em;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  grid-template-rows: 0.09fr 1fr;
+  height: calc(100%-4em);
+  padding: 1em 3em 2em 3em;
+  font-family: 'Montserrat';
+  color: color(text);
+}
+
+.calendar-title {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-left: 0.75em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.calendar-container {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: color(primary);
+  height: 75vh;
+  margin-right: 1.5em;
+  border-radius: 2em;
+}
+
+.form-title {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-left: 1.5em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.form-container {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: color(primary);
+  height: 75vh;
+  margin-left: 1.5em;
+  border-radius: 2em;
+}
+
+ul {
+  list-style: none;
+}

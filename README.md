@@ -15,8 +15,9 @@
 ---
 
 ### Tools:
-- Django and Python for frontend
-- Firebase for backend
+- Django
+- Python
+- Firebase
 
 ---
 
