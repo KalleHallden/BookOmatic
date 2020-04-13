@@ -15,8 +15,9 @@
 ---
 
 ### Tools:
-- Django and Python for frontend
-- Firebase for backend
+- Django
+- Python
+- Firebase
 
 ---
 
@@ -60,15 +61,21 @@ git clone https://github.com/KalleHallden/BookOmatic.git
 cd BookOmatic/
 ```
 - Create and activate your virtual environment.
-```bash
-virtualenv --no-site-packages env
-source env/bin/activate
-```
+    - MacOS/Linux:
+    ```bash
+    virtualenv --no-site-packages env
+    source env/bin/activate
+    ```
+    - Windows:
+    ```
+    virtualenv env
+    .\env\Scripts\activate
+    ```
 - Install requisite python packages and modules.
 ```bash
 pip install -r requirements.txt
 ```
-- Verify working Django project by running the development server.
+- Verify if the Django project is working by running the development server.
 ```bash
 python manage.py runserver
 ```

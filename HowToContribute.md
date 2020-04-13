@@ -3,12 +3,16 @@
 The goal of this file is to help the larger community settle on some best practices when it comes to contributing. This is an open source project, so community contributions are the only way this will truly develop. Any help you give is greatly appreciated, big or small.
 
 ## Issue Gardening:
-
 This is essentially how we keep track of what issues are presently at play and discuss solutions before attempting to fix them.
 
 -   When creating an issue ensure that you have first looked through all open issues so that no duplicates are made.
 -   Please include a labels in new issues, such as "Documentation" or "Bug" or "Question". This helps others know what you may be looking for and direct focus. This is particularly true if you attach labels like [good first issue] so that newcomers can assess an issue for their skill set.
 -   If the issue is bug related please include a text version of any output and clear description of how you created it.
+=======
+This is essentially how we keep track of what issues are presently at play and discuss solutions before attempting to fix them. 
+- When creating an issue ensure that you have first looked through all open issues so that no duplicates are made.
+- Please include the relevant lables in new issues, such as "Documentation" or "Bug" or "Question". This helps others know what you may be looking for and direct focus. This is particularly true if you attach labels like [good first issue] so that newcomers can assess an issue for their skill set.
+- If the issue is bug related please include a text version of any output and clear description of how you created it.
 
 ## Bug Fixing and Pull Requests:
 

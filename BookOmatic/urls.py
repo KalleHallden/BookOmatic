@@ -13,9 +13,18 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls import url, include
 from django.contrib import admin
-from django.urls import path
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    url(r'^accounts/', include('allauth.urls')),
+    url(r'', include('calendarapp.urls')),
+    url(r'^admin/', admin.site.urls),
+
+]
+
+#Add Django site authentication urls (for login, logout, password management)
+urlpatterns += [
+    path('accounts/', include('django.contrib.auth.urls')),
 ]
