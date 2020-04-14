@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Project</title>
-    </head>
 
-    <body>
+<head>
+    <title>My Project</title>
+</head>
+
+<body>
+    <h1>Home Page</h1>
+    <a href="{% url 'accounts:signup' %}">Sign Up</a>
     {% block content %}{% endblock content %}
-    </body>
+</body>
+
 </html>
