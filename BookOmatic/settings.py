@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     "calendarapp",
     "userprefs",
     "eventbooking",
-    "accounts",
     "django_extensions",
     "allauth",
     "allauth.account",
