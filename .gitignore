@@ -170,3 +170,10 @@ dmypy.json
 # mypy
 
 # Pyre type checker
+.idea/
+.vs/
+.env
+env
+.pk
+.pem
+.pub
