@@ -27,7 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+SOCIALACCOUNT_PROVIDERS = { 'google':
+                             { 'SCOPE': ['email'],
+                               'AUTH_PARAMS': { 'access_type': 'online' }
+                             }
+                          }
 # Application definition
 
 INSTALLED_APPS = [
