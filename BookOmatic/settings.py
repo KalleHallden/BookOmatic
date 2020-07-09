@@ -27,7 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+SOCIALACCOUNT_PROVIDERS = { 'google':
+                             { 'SCOPE': ['email'],
+                               'AUTH_PARAMS': { 'access_type': 'online' }
+                             }
+                          }
+#Obtain the Oauth credentials from the google cloud developers console
+#Add the callback id as http://localhost/accounts/google/login/callback/ or however youre running your server
+#Credentials menu can be found in the google API manager once youve created your project
+#Add client ID and client secret to Django admin
 # Application definition
 
 INSTALLED_APPS = [
@@ -136,7 +144,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] #Where to find the static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
 

@@ -1,10 +1,23 @@
 <!DOCTYPE html>
+{% load static %}
+{#Loading the static directory to include css and js files#}
 <html>
-    <head>
-        <title>My Project</title>
-    </head>
+  <head>
+    <title>{% block head_title %}{% endblock %}</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CDN for bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    {% block extra_head %}
+    {% endblock %}
 
-    <body>
-    {% block content %}{% endblock content %}
-    </body>
+  </head>
+  <body>
+{#    Navbar for website comes here#}
+    {% block content %}
+{#        Main content for each template comes here #}
+    {% endblock %}
+    {% block extra_body %}
+    {% endblock %}
+  </body>
 </html>
