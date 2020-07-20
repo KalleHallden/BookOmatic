@@ -17,3 +17,14 @@ This is essentially how we keep track of what issues are presently at play and d
 - @mention devs that you specifically want to see the PR and mention why. Such as having experience with the issue.
 - Try to make all code as readable as possible and include comments where you can.
 
+## How to create Pull Request:
+
+1. Create an account on [github](https://github.com)
+2. Fork [BookOmatic](https://github.com/KalleHallden/BookOmatic)
+3. Make a local clone: `git clone https://github.com/<your_username>/BookOmatic.git`
+4. Make changes on the local copy
+5. Test and commit changes `git commit -am "<YOUR_MESSAGE>"`
+6. `push` to your GitHub account: `git push origin`
+7. create a Pull Request (PR) from your GitHub fork
+(go to [BookOmatic](https://github.com/KalleHallden/BookOmatic)  and click on "Pull Request."
+Describe your proposal.)
