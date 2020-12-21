@@ -18,6 +18,11 @@
 
 ---
 
+### How to contribute:
+Check this: [CONTRIBUTING](CONTRIBUTING.md)
+
+---
+
 ### Tools:
 - Django
 - Python
